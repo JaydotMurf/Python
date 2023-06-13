@@ -25,6 +25,15 @@ def min_max(lst):
     return [min(lst), max(lst)]
 
 
-print(min_max([1, 2, 3, 4, 5]))
-print(min_max([2334454, 5]))
-print(min_max([1]))
+# print(min_max([1, 2, 3, 4, 5]))
+# print(min_max([2334454, 5]))
+# print(min_max([1]))
+
+# Ones and Zeros
+
+
+def binary_array_to_number(arr):
+    return int("".join(str(num) for num in arr), 2)
+
+
+print(binary_array_to_number([1, 0, 1, 1]))
